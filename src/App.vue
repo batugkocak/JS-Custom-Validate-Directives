@@ -1,6 +1,6 @@
 <template>
   <div> 
-    <p>Max Length: </p>
+    <p>Max Length: {{ maxLength }}</p>
     <input type="text" v-max-length="maxLength">
     <br>
     <br>
